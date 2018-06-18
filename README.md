@@ -1,6 +1,6 @@
-# vue-webpack
+# aksenovdev
 
-> Официальный [шаблон](https://github.com/vuejs-templates/webpack), дополненный pug и scss
+> My [website](aksenovdev.netlify.com)
 
 ## Build Setup
 

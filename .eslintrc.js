@@ -23,7 +23,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'curly': 'error',
     'eqeqeq': 'error',
-    'no-magic-numbers': 'error',
     'radix': 'error',
     'yoda': 'error',
     'indent': ['error', 2],

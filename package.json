@@ -2,7 +2,13 @@
   "name": "vue-webpack",
   "version": "1.0.0",
   "description": "vue-webpack template based on official vue-webpack template",
-  "keywords": ["vue", "webpack", "template", "pug", "scss"],
+  "keywords": [
+    "vue",
+    "webpack",
+    "template",
+    "pug",
+    "scss"
+  ],
   "author": "Aksenov Sergei <aksenovdev@gmail.com>",
   "private": true,
   "scripts": {
@@ -15,6 +21,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "normalize.css": "^8.0.0",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
@@ -71,6 +78,7 @@
     "shelljs": "^0.8.1",
     "sinon": "^4.0.0",
     "sinon-chai": "^3.0.0",
+    "tachyons": "^4.10.0",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^1.0.1",
     "vue-loader": "^15.0.3",
