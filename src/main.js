@@ -9,7 +9,7 @@ import Vue from 'vue';
 import router from './router';
 
 // Components
-import App from './app';
+import app from './app';
 
 Vue.config.productionTip = false;
 
@@ -17,6 +17,6 @@ Vue.config.productionTip = false;
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: { app },
   template: '<app/>'
 });

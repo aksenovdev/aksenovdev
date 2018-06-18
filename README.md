@@ -1,6 +1,6 @@
 # aksenovdev
 
-> My [website](https://aksenovdev.netlify.com)
+> My [website](https://aksenovdev.github.io)
 
 ## Build Setup
 
