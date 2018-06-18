@@ -27,7 +27,7 @@ module.exports = {
     'yoda': 'error',
     'indent': ['error', 2],
     'camelcase': 'error',
-    'linebreak-style': ['error', 'windows'],
+    'linebreak-style': 0,
     'quotes': ['error', 'single', {'avoidEscape': true}],
     'semi': ['error', 'always'],
     'no-trailing-spaces': 'error',
