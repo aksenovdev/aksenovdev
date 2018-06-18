@@ -8,7 +8,7 @@
         h1.ma0 Аксёнов Сергей Владимирович
         ul.list.pl0.mt2.w-100.mt3
           li.flex.items-center.lh-copy.ph0-l.pb1
-            span Возраст: &nbsp {{ age }} (7 декабря 1996)
+            span Возраст: &nbsp <span class="age">{{ age }}</span> (7 декабря 1996)
           li.flex.items-center.lh-copy.ph0-l.pb1
             span Телефон: &nbsp
             a.f6.link.blue.hover-dark-gray(href="tel:") 89996487065
