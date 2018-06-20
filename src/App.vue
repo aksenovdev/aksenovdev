@@ -14,7 +14,12 @@ export default {
 </script>
 
 <style lang="scss">
+  @import url('../node_modules/tachyons/css/tachyons.min.css');
+  @import url('../node_modules/normalize.css/normalize.css');
+  @import url('../node_modules/mdi/css/materialdesignicons.min.css');
+
   @import url('./styles/roboto.css');
+
 
   .header {
     font-family: 'Roboto Thin', sans-serif;
@@ -37,5 +42,17 @@ export default {
 
   .fade-enter, .fade-leave-to {
     opacity: 0;
+  }
+
+  .arrow {
+    transition: transform .5s;
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    cursor: pointer;
+
+    &.active {
+      transform: scaleY(-1);
+    }
   }
 </style>

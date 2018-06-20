@@ -2,11 +2,13 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 
 // Libaries
-import 'normalize.css';
-import 'tachyons';
+
+// Mixins
+import './mixins/slide';
 
 import Vue from 'vue';
 import router from './router';
+
 
 // Components
 import app from './app';
