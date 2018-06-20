@@ -1,11 +1,11 @@
 <template lang="pug">
-  .resume.roboto-thin.mw7.center.ph3-ns.mv5
+  .resume.mw7.center.ph3-ns.mb5
     .cf
       .fl.w-100.w-30-ns
         img.w-100(src="../assets/images/i.jpg" alt="Sergei Aksenov")
         // a.pv2.bg-black.white.tc.lh-copy.f6.db.link(href="../assets/resume.docx") Скачать резюме
       .fl.w-100.w-70-ns.pl3
-        h1.ma0 Аксёнов Сергей Владимирович
+        h1.header.ma0 Аксёнов Сергей Владимирович
         ul.list.pl0.mt2.w-100.mt3
           li.flex.items-center.lh-copy.ph0-l.pb1
             span Возраст: &nbsp <span class="age">{{ age }}</span> (7 декабря 1996)
@@ -27,7 +27,7 @@
             span Гражданство: &nbsp Россия
           li.flex.items-center.lh-copy.ph0-l.pb2
             span Образование: &nbsp высшее
-    h2.w-100.bb.pv2.mt0 Желаемая должность
+    h2.header.w-100.bb.pv2.mt0 Желаемая должность
     .flex
       span.flex-auto.roboto.fw7.f4 Juniour fronend developer
       span.fw7.f4 30 000 ₽
@@ -51,7 +51,7 @@
           a.f6.b.db.pa2.link.dim.dark-gray.ba.b--black-20 Сменный график
         li.dib.mr1.mb2
           a.f6.b.db.pa2.link.dim.dark-gray.ba.b--black-20 Полный день
-    h2.w-100.bb.pb2.mt0 Ключевые навыки
+    h2.header.w-100.bb.pb2.mt0 Ключевые навыки
     span Навыки (базовый уровень)
     .mv3
       ul.list.ph3.mt3
@@ -74,12 +74,12 @@
         li.dib.mr1.mb2
           a.f6.b.db.pa2.link.dim.dark-gray.ba.b--black-20 Английский <br>
             span.f7.dark-pink чтение документации
-    h2.w-100.bb.pb2.mt0 Образование
-    .cf
+    h2.header.w-100.bb.pb2.mt0 Образование
+    .cf.mb3
       .fl.w-100.w-30-ns
         .f6.lh-copy Бакалавр <br> г. Кемерово <br> 2018
       .fl.w-100.w-70-ns.lh-copy Кузбасский государственный технический университет им. Т.Ф. Горбачева <br> ИИТМА, Прикладная информатика
-    h2.w-100.bb.pv2.mt0 Конкурсы и публикации
+    h2.header.w-100.bb.pv2.mt0 Конкурсы и публикации
     article.center.mw5.mw6-ns.hidden.mv4.roboto
       .bg-yellow-acient
         h1.f4.tc.pv3.ma0 I WANT TO GET OUT OF HERE
@@ -91,7 +91,7 @@
           .fl.w-100
             a.yellow-acient(href="https://bit.ly/2tgTtFL") Подробнее
         p.f6.f5-ns.lh-copy.measure.mv0.pa3 Сервис предназначался для рекомендации пользователю различных заведений на основе его увлечений. Интересы определялись посредством анализа социальных сетей. За сутки был реализован MVP, дальнейшая разработка прекратилась. В команде занимал должность backend разработчика.
-    h2.w-100.bb.pv2.mt0 Опыт работы
+    h2.header.w-100.bb.pv2.mt0 Опыт работы
     .cf
       .fl.w-100.w-30-ns
         .f6.lh-copy Февраль 2018 — Май 2018
