@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import slide from '../helpers/slide';
+import slidingjs from 'slidingjs';
 
 Vue.mixin({
   methods: {
@@ -7,7 +7,7 @@ Vue.mixin({
       const el = ev.target;
       el.classList.toggle('active');
       const sel = el.dataset.slide;
-      slide.slideToggle(sel);
+      slidingjs.slideToggle(sel);
     }
   }
 });
