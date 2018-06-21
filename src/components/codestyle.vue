@@ -1,5 +1,5 @@
 <template lang="pug">
-  .codestyle.mw7.center.ph3-ns.mb5
+  .codestyle.mw7.center.ph3.mb5
     h2.header.relative.w-100.bb.pb2.mt0 Git commit (<a class="link" href="http://udacity.github.io/git-styleguide/">udacity</a>)
       .arrow.mdi.mdi-chevron-down.active(v-on:click="slideToggle" data-slide="#gitCommit")
     #gitCommit.lh-copy

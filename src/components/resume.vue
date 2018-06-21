@@ -1,11 +1,11 @@
 <template lang="pug">
-  .resume.mw7.center.ph3-ns.mb5
+  .resume.mw7.center.ph3.mb5
     .cf
       .fl.w-100.w-30-ns
         img.w-100(src="../assets/images/i.jpg" alt="Sergei Aksenov")
         // a.pv2.bg-black.white.tc.lh-copy.f6.db.link(href="../assets/resume.docx") Скачать резюме
       .fl.w-100.w-70-ns.pl3
-        h1.header.ma0 Аксёнов Сергей Владимирович
+        h1.header.mt3.mb0.ma0-ns Аксёнов Сергей Владимирович
         ul.list.pl0.mt2.w-100.mt3
           li.flex.items-center.lh-copy.ph0-l.pb1
             span Возраст: &nbsp <span class="age">{{ age }}</span> (7 декабря 1996)
@@ -92,7 +92,7 @@
             a.yellow-acient(href="https://bit.ly/2tgTtFL") Подробнее
         p.f6.f5-ns.lh-copy.measure.mv0.pa3 Сервис предназначался для рекомендации пользователю различных заведений на основе его увлечений. Интересы определялись посредством анализа социальных сетей. За сутки был реализован MVP, дальнейшая разработка прекратилась. В команде занимал должность backend разработчика.
     h2.header.w-100.bb.pv2.mt0 Опыт работы
-    .cf
+    .cf.mb3.mb0-ns
       .fl.w-100.w-30-ns
         .f6.lh-copy Февраль 2018 — Май 2018
       .fl.w-100.w-70-ns
