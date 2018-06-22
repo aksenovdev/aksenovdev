@@ -29,7 +29,7 @@
             span Образование: &nbsp высшее
     h2.header.w-100.bb.pv2.mt0 Желаемая должность
     .flex
-      span.flex-auto.roboto.fw7.f4 Juniour fronend developer
+      span.flex-auto.roboto.fw7.f4 Juniour frontend developer
       span.fw7.f4 30 000 ₽
     .mv3 Занятость
       ul.list.ph3.mt3
