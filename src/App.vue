@@ -2,7 +2,8 @@
   #app.roboto.fw3
     nav.flex-center.pv4.fw4
       router-link.link.f5.hover-dark-pink.black.mr3(to="/" exact-active-class="dark-pink") РЕЗЮМЕ
-      router-link.link.f5.hover-dark-pink.black(to="/codestyle" exact-active-class="dark-pink") CODE STYLE
+      router-link.link.f5.hover-dark-pink.black.mr3(to="/codestyle" exact-active-class="dark-pink") CODE STYLE
+      router-link.link.f5.hover-dark-pink.black(to="/projects" exact-active-class="dark-pink") ПРОЕКТЫ
     transition(name="fade" mode="out-in")
       router-view
 </template>
